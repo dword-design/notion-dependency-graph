@@ -1,5 +1,3 @@
 export default {
-  modules: [
-    'nuxt-mermaid-string',
-  ],
+  modules: ['nuxt-mermaid-string'],
 }
