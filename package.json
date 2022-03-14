@@ -24,6 +24,11 @@
     "start": "base start",
     "test": "base test"
   },
+  "dependencies": {
+    "@dword-design/functions": "^4.0.7",
+    "@notionhq/client": "^1.0.2",
+    "nuxt-mermaid-string": "^2.0.12"
+  },
   "devDependencies": {
     "@dword-design/base": "^8.6.15",
     "@dword-design/base-config-app": "^2.0.16"
