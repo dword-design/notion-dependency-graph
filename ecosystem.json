@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "args": "start",
+      "exec_mode": "cluster",
+      "instances": "max",
+      "name": "notion-dependency-graph",
+      "script": "npm"
+    }
+  ],
+  "deploy": {
+    "production": {
+      "host": [
+        "sebastianlandwehr.com"
+      ],
+      "path": "/var/www/notion-dependency-graph",
+      "user": "root",
+      "repo": "git@github.com:dword-design/notion-dependency-graph.git",
+      "post-deploy": "source ~/.nvm/nvm.sh && yarn --frozen-lockfile && yarn prepublishOnly && pm2 startOrReload ecosystem.json",
+      "ref": "origin/master"
+    }
+  }
+}

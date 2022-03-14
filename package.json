@@ -1,0 +1,36 @@
+{
+  "name": "notion-dependency-graph",
+  "version": "1.0.0",
+  "repository": "dword-design/notion-dependency-graph",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "analyze": "base analyze",
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "pull": "base pull",
+    "push": "base push",
+    "setupDeploy": "base setupDeploy",
+    "start": "base start",
+    "test": "base test"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^8.6.15",
+    "@dword-design/base-config-app": "^2.0.16"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
