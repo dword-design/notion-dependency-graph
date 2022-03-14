@@ -1,5 +1,5 @@
 <!-- TITLE/ -->
-# notion-dependency-graph
+# @dword-design/notion-dependency-graph
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
@@ -53,10 +53,10 @@
 
 ```bash
 # npm
-$ npm install notion-dependency-graph
+$ npm install @dword-design/notion-dependency-graph
 
 # Yarn
-$ yarn add notion-dependency-graph
+$ yarn add @dword-design/notion-dependency-graph
 ```
 <!-- /INSTALL -->
 
