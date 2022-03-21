@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/notion-dependency-graph/compare/v1.0.0...v1.0.1) (2022-03-21)
+
+
+### Bug Fixes
+
+* lock file maintenance ([ead572f](https://github.com/dword-design/notion-dependency-graph/commit/ead572f291f6435c93728d0031aa9fec6c34d5f9))
+
 # 1.0.0 (2022-03-17)
 
 
